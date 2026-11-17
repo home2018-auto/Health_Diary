@@ -9,7 +9,7 @@
  */
 const SCOPE = self.registration.scope;                 // যেমন https://user.github.io/Health_Diary/
 const PFX = 'health-diary@' + SCOPE + '@';             // শুধু এই অ্যাপের ক্যাশ চেনার নাম
-const V = PFX + 'v11';                                 // sw.js বদলালে v11 → v12 করুন
+const V = PFX + 'v12';                                 // sw.js বদলালে v12 → v13 করুন
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 const HTML = { 'content-type': 'text/html;charset=utf-8' };
 const OFFLINE_PAGE = '<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>অফলাইন</title>' +
